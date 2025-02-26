@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet"  href="css/style2.css">
+</head>
+
+<body>
+    <nav class="container9">
+        <a href="index.html" class="letter9" target="_blank">INICIO </a>
+        <a href="aboutme.html"  class="letter9" target="_blank">ABOUTME</a>
+        <a href="projects.html" class="letter9" target="_blank">PROJECTS</a>
+        <a href="contact.html" class="letter9" target="_blank">CONTACT</a>
+
+    </nav>
+    <main class="container">
+        <form action="https://formspree.io/f/manqgjor" method="POST" onsubmit="return sendForm(event);">
+                <legend><span><b>Tell us a bit about you.</b></span><br></legend>
+                <label for="email" class="label">Email:</label><br>
+                <input type="email" name="email" require placeholder="email@gmail.com"><br>
+                <label for="name" class="label" >First Name:</label><br>
+                <input type="text" name="name" required placeholder="Firstname"><br>
+                <label for="lastname" class="label" >Last Name:</label><br>
+                <input type="text" name="lastname" required placeholder="lastname"><br>
+                <label for="text" class="label" >Message:</label><br>
+                <input type="text" class="textarea" name="Message" require placeholder="Tell me something About you"><br>
+            <button type="submit" class="boton"> submit</button>
+            <p id="form-message"> </p>
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

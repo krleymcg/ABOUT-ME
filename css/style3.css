@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f2f7, #0f3a69);
+    height: 100vh;
+  }
+.lista{
+list-style: none;
+display: flex;
+justify-content: space-around;
+width: 50%;
+height: 50%;
+
+flex-wrap: wrap;
+}
+
+img {
+    width: 250px;
+    height: 100px;
+}
